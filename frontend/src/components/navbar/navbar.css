@@ -45,4 +45,5 @@
   border-radius: 20px;
   width: 150px;
   font-weight: 700;
+  background-color: var(--red);
 }

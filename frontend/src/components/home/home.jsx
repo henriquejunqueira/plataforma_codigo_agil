@@ -26,15 +26,15 @@ const Home = () => {
             <div className='containerCard'>
               <div className='card'>
                 <img src={imgHtml} className='imgCard' />
-                <h4>Curso de Html</h4>
+                <h4>Curso de HTML 5</h4>
               </div>
               <div className='card'>
                 <img src={imgCss} className='imgCard' />
-                <h4>Curso de Css</h4>
+                <h4>Curso de CSS 3</h4>
               </div>
               <div className='card'>
                 <img src={imgJs} className='imgCard' />
-                <h4>Curso de JS</h4>
+                <h4>Curso de JavaScript</h4>
               </div>
             </div>
           </div>
@@ -52,11 +52,11 @@ const Home = () => {
               </div>
               <div className='card'>
                 <img src={imgReact} className='imgCard' />
-                <h4>Curso de Node</h4>
+                <h4>Curso de React</h4>
               </div>
               <div className='card'>
                 <img src={imgJava} className='imgCard' />
-                <h4>Curso de Node</h4>
+                <h4>Curso de Java Spring</h4>
               </div>
             </div>
           </div>

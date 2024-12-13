@@ -21,9 +21,16 @@ h2 {
 
 .imgCard {
   width: 100%;
+  /* width: 250px; */
+  height: auto;
   border-radius: 5px;
   border: 2px solid var(--red);
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.imgCard:hover {
+  transform: scale(1.2);
 }
 
 .containerCard {

@@ -1,0 +1,30 @@
+:root {
+  --black: #222222;
+  --white: #fffafa;
+  --darkGreen: #30a176;
+  --red: #a13030;
+}
+
+.navbar-brand i {
+  font-size: 28px;
+  color: var(--white);
+  margin-left: 20px;
+}
+
+.navbar-brand i:hover {
+  color: var(--red);
+}
+
+.perfil {
+  font-size: 48px;
+  margin-right: 20px;
+}
+
+.perfil:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.menu {
+  background-color: var(--darkGreen);
+}
