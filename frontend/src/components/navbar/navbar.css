@@ -1,0 +1,48 @@
+:root {
+  --black: #222222;
+  --white: #fffafa;
+  --darkGreen: #30a176;
+  --red: #a13030;
+}
+
+.logo {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-color: var(--darkGreen);
+}
+
+.navbar-collapse li a {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.navbar-collapse li a:hover {
+  color: var(--red);
+  font-weight: 400;
+}
+
+.buttonLogin {
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 20px;
+  border: 2px solid var(--red);
+  margin-right: 10px;
+  width: 150px;
+  font-weight: 700;
+}
+
+.buttonLogin:hover {
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.buttonRegister {
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 700;
+}
